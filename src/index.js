@@ -22,7 +22,7 @@ buttonEncode.onclick = () => {
 buttonDecode.onclick = () => {
   myFunction();
   document.getElementById("txtResult").value = cipher.decode(offset, string);
-};
+}; 
 
 /*src/index.js:
 
