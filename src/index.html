@@ -8,61 +8,36 @@
 </head>
 
 <body>
-  <div id="root">
+
+  <header>
     <h1><span style="color: #ffa31a">Cae</span><span style="color: #ff0000">sar</span>
       <span style="color: #006600">tran</span><span style="color: #1a53ff">slate</span></h1>
     <h3>Traductor de cifrado César, crea contraseñas seguras,
       textos cifrados con desplazamientos que tú elijas.</h3>
-  </div>
-  <!-- <div class="buttons">
-      <input type="button" value="4">
-      <input type="button" value="5">
-      <input type="button" value="6">
-    </div><br> -->
+  </header>
 
-  <div class="opciones">
-    <label for="desplazamientos">Elegir número de desplazamientos</label>
-    <br>
+
+  <section>
+    <p>Elegir número de desplazamientos</p>
+
     <input id="displace" type="number">
-    <!-- <select name="Desplazamientos" id="displace">
-      <option value="">4</option>
-      <option value="">5</option>
-      <option value="">6</option>
-    </select> -->
-  </div><br>
-
-  <div class="formularios">
 
 
-    <div class="form1">
-      <form action="">
-        <label for="">Texto</label>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa tu texto"></textarea>
-        <!-- <input type="text" name="" id="" placeholder="Ingresa tu texto" maxlength="1000"> -->
-    </div>
+    <p>Texto</p>
+
+    <textarea name="" id="txt" cols="30" rows="10" placeholder="Ingresa tu texto"></textarea>
+
+    <input type="submit" id="cifrar" value="Cifrar">
+
+    <input type="button" id="descifrar" value="Descifrar">
+
+    <p>Cifrado</p>
+    <textarea name="" id="txtResult" cols="30" rows="10" placeholder="Traducción"></textarea>
+    <!--<input type="text" name="" id="" placeholder="Traducción" maxlength="1000">-->
+  </section>
 
 
 
-    <div class="validar">
-
-      <div class="okay">
-        <input type="submit" value="OK!">
-      </div>
-      <div class="invertido">
-        <input type="button" value="Invertir">
-      </div>
-
-    </div>
-
-    <div class="form2">
-      <label for="">Cifrado</label>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Traducción"></textarea>
-      <!--<input type="text" name="" id="" placeholder="Traducción" maxlength="1000">-->
-      </form>
-    </div>
-
-
-  </div>
 
   <script src="index.js" type="module"></script>
 </body>

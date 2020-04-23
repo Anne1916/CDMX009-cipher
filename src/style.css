@@ -1,7 +1,3 @@
-body{
-    margin-top: -1%;
-}
-
 h1{
     font-size: 70px;
     text-align: center;
@@ -12,36 +8,10 @@ h3{
     font-size: 25px;
 }
 
-.opciones{
-    padding: 2%;
-    text-align: center;
-}
 
-.formularios{
- display: flex;
- justify-content: space-around;
- border: 1px solid #CCC;
-    width: 94%;
-    margin: 20px;
-    padding: 20px;
-    resize: both;
-}
-
-label{
-    display: block;
-    width: 100%;
-}
-
-input:focus{
-    border: 1 px solid #1668C4;
-}
-
-textarea{
+/*textarea{
     resize: both;
     width: 120%;
     
-}
+}*/
 
-.validar{
-    margin-top: 5%;
-}
