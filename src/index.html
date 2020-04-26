@@ -16,24 +16,28 @@
       textos cifrados con desplazamientos que tú elijas.</h3>
   </header>
 
+  <div class="btnDisplace">
+    <p>Elegir número de desplazamientos</p>
+    <input class="numDisp" id="displace" type="number">
+  </div>
 
   <section>
-    <p>Elegir número de desplazamientos</p>
 
-    <input id="displace" type="number">
+    <div class="areaOne">
+      
+      <textarea name="" id="txt" cols="30" rows="10" placeholder="Ingresa tu texto a cifrar"></textarea>
+    </div>
 
+    <div class="buttons"> 
+    <input type="submit" class="btnOne" id="encode" value="Cifrar">
+    <input type="button" class="btnTwo" id="decode" value="Descifrar">
+    </div>
 
-    <p>Texto</p>
+    <div class="areaTwo">
+     <textarea name="" id="txtResult" cols="30" rows="10" placeholder="Cifrado"></textarea>
+      <!--<input type="text" name="" id="" placeholder="Traducción" maxlength="1000">-->
+    </div>
 
-    <textarea name="" id="txt" cols="30" rows="10" placeholder="Ingresa tu texto"></textarea>
-
-    <input type="submit" id="cifrar" value="Cifrar">
-
-    <input type="button" id="descifrar" value="Descifrar">
-
-    <p>Cifrado</p>
-    <textarea name="" id="txtResult" cols="30" rows="10" placeholder="Traducción"></textarea>
-    <!--<input type="text" name="" id="" placeholder="Traducción" maxlength="1000">-->
   </section>
 
 
